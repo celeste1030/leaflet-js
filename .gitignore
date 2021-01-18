@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#ignore config
+config.js
+
 
 # ds_store
 .DS_Store
