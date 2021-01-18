@@ -2,6 +2,8 @@
 
 Created by [Celeste Muniz - Lithgow](https://github.com/celeste1030)
 
+![earthquake](Images/earthquake.jpg) 
+
 ## Table of Contents
 * [Objective](#objective)
 * [How to View](#how-to-view)
