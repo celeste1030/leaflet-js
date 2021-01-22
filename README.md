@@ -33,6 +33,8 @@ The [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson
 
 2. **Import & Visualize the Data**
 
+![map1](Images/level1.png)
+
 * I created a map using Leaflet that plots all of the earthquakes from your data set based on their longitude and latitude.
 
 * Data markers reflect the **magnitude of the earthquake by their size** and **depth of the earthquake by color**. Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear darker in color.
@@ -42,6 +44,8 @@ The [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson
 *  Included a legend that provides context for the map data.
 
 3. **Bonus**
+
+![map2](Images/level2.png)
 
 * Plotted a second data set on our map that shows locations of **tectonic plates**. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
 
