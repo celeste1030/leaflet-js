@@ -35,11 +35,21 @@ The [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson
 
 * I created a map using Leaflet that plots all of the earthquakes from your data set based on their longitude and latitude.
 
-* Data markers reflect the **magnitude of the earthquake by their size** and **depth of the earth quake by color**. Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear darker in color.
+* Data markers reflect the **magnitude of the earthquake by their size** and **depth of the earthquake by color**. Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear darker in color.
 
 * I included popups that provide additional information about the earthquake when a marker is clicked.
 
-*  Included a legend that will provide context for the map data.
+*  Included a legend that provides context for the map data.
+
+3. **Bonus**
+
+* Plotted a second data set on our map that shows locations of **tectonic plates**. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
+
+* Added base maps to choose from: satellite street, light, and dark.
+
+* Separated the two different data sets into overlays, earthquakes and tectonic, that can be turned on and off independently.
+
+* Added layer controls to map.
 
 ## Technologies
 
@@ -52,3 +62,5 @@ Java
 Html
 
 CSS
+
+geoJson
