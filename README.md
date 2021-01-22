@@ -2,7 +2,9 @@
 
 Created by [Celeste Muniz - Lithgow](https://github.com/celeste1030)
 
-![earthquake](Images/earthquake.jpg) 
+![earthquake](Images/earthquake.jpg)
+
+![earthquake](Images/1-Logo.png) 
 
 ## Table of Contents
 * [Objective](#objective)
@@ -13,6 +15,11 @@ Created by [Celeste Muniz - Lithgow](https://github.com/celeste1030)
 ## Objective
 
 ## How to View
+
+1. Download repo to your local drive.
+2. Open in VS code.
+3. Open index.html with Live Server.
+
 
 ## Steps
 
