@@ -3,8 +3,7 @@
 Created by [Celeste Muniz - Lithgow](https://github.com/celeste1030)
 
 ![earthquake](Images/earthquake.jpg)
-
-![earthquake](Images/1-Logo.png) 
+ 
 
 ## Table of Contents
 * [Objective](#objective)
@@ -13,6 +12,11 @@ Created by [Celeste Muniz - Lithgow](https://github.com/celeste1030)
 * [Technologies](#technologies)
 
 ## Objective
+![earthquake](Images/1-Logo.png)
+
+The **United States Geological Survey**, or **USGS** for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
+
+For this assignment, I developed a set of tools that will allow them visualize their **earthquake data**. They collect a massive amount of data from all over the world each day, and my objective is to create a meaningful way of displaying it. Visualizing their data will allow the USGS to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
 ## How to View
 
