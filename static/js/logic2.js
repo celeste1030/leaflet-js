@@ -1,14 +1,17 @@
-// Store our API endpoint inside queryUr
+// Layer Variables
 var earthquakes = new L.LayerGroup();
 var tplates = new L.LayerGroup();
-
-var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
+// All Month:
+// var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
+// All Week:
+var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 //variables for legend and color function
+//original colors:
 // var colors = ['#E6E6FA', '#DDA0DD', '#FF00FF', '#9932CC', '#8B008B', '#4B0082']
 
-var colors = ['#E6E6FA', '#DDA0DD', '#FF00FF', '#9932CC', '#8B008B', '#1951']
-var range = [0, 20, 40, 60, 80, 100];
+var colors = ['#99FF99', '#78dedb', '#9590E8', '#CC00FF', '#CC0033', '#93000d']
+var range = [-10, 10, 30, 50, 70, 90];
 
 // function to change color by depth
 
@@ -33,15 +36,6 @@ d3.json(queryUrl, function (data) {
 
 
     function createFeatures(earthquakeData) {
-
-        // for (var i = 0; i < earthquakeData.length; i++) {
-
-        // var earthquakeData = data.features;
-
-        // var location = earthquakeData[i].geometry;
-
-        // var colordepth = changeColor(location.coordinates[2]);
-
 
         earthquakes = L.geoJSON(earthquakeData, {
             pointToLayer: function (feature, location) {
@@ -117,7 +111,7 @@ function createMap(earthquakes) {
     // Create overlay object to hold our overlay layer
     var overlayMaps = {
         Earthquakes: earthquakes,
-        TPLlates: tplates
+        Tectonic: tplates
     };
 
     // Create our map, giving it the streetmap and earthquakes layers to display on load
@@ -142,8 +136,7 @@ function createMap(earthquakes) {
     legend.onAdd = function (map) {
 
         var div = L.DomUtil.create('div', 'info legend'),
-            grades = range,
-            labels = [];
+            grades = range;
 
         // loop through our density intervals and generate a label with a colored square for each interval
         for (var i = 0; i < grades.length; i++) {
