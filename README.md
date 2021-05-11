@@ -41,7 +41,7 @@ The [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson
 
 * I included popups that provide additional information about the earthquake when a marker is clicked.
 
-*  Included a legend that provides context for the map data.
+*  Included a legend that provides context for map data.
 
 3. **Bonus**
 
